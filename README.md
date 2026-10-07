@@ -1,8 +1,8 @@
-# The Fessy Observer
+# 📰 The Fessy Observer
 
 A static newspaper-style website for the school community, built as a polished editorial landing page and multi-page mini publication.
 
-## Overview
+## ✨ Overview
 
 The Fessy Observer is a school newspaper-inspired website with:
 
@@ -12,7 +12,7 @@ The Fessy Observer is a school newspaper-inspired website with:
 - multiple section pages for campus, interviews, lunch, sports, and games
 - responsive styling for desktop and smaller screens
 
-## Project Structure
+## 📁 Project Structure
 
 - `index.html` — home page
 - `campus.html` — campus and residential section
@@ -23,12 +23,12 @@ The Fessy Observer is a school newspaper-inspired website with:
 - `style.css` — all site styling
 - `script.js` — typewriter animation and card interactions
 
-## URL
+## 🌐 URL
 
-```
+```text
 fessyobserverofficial.netlify.app
 ```
 
-## License
+## 📝 License
 
 This project is for educational and personal use.
