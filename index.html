@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Fessy Observer</title>
+    <meta
+      name="description"
+      content="The Fessy Observer school newspaper featuring stories, campus life, and community voices."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-bars" aria-hidden="true"></div>
+
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="paper-price-row">
+          <span>$0.00 / €0.00 / £0.00</span>
+        </div>
+
+        <div class="masthead-inner">
+          <div class="school-mark" aria-label="Fessenden School logo">
+            <div class="logo-box" aria-hidden="true">
+              <div class="logo-header">FESSENDEN</div>
+              <div class="shield-wrap">
+                <div class="shield-left"></div>
+                <div class="shield-right"></div>
+                <div class="shield-monogram">F</div>
+              </div>
+              <div class="logo-footer">LABOR OMNIA VINCIT</div>
+            </div>
+          </div>
+
+          <div class="title-cluster">
+            <h1 class="masthead-title">
+              <span class="title-small">The</span>
+              <span class="title-contrast">Fessy</span>
+              <span class="title-large">Observer</span>
+            </h1>
+            <div class="subhead-row">
+              <span>The Fessenden School Weekly Bulletin.</span>
+              <span>Made by students, for the school.</span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="section-tabs" aria-label="Section tabs">
+          <a class="tab home-tab active" href="index.html">Home</a>
+          <a class="tab" href="campus.html">Campus and Residential</a>
+          <a class="tab" href="interviews.html">Interviews</a>
+          <a class="tab" href="lunch.html">Lunch</a>
+          <a class="tab" href="sports.html">Sports</a>
+          <a class="tab" href="games.html">Games</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">The Fessenden School Weekly Bulletin</p>
+          <h2 class="typewriter" aria-live="polite">
+            <span id="typewriter-text"></span><span class="cursor" aria-hidden="true"></span>
+          </h2>
+          <div class="typewriter-meaning">“seize another day”</div>
+          <p class="lede">
+            News, life, and inspiration from every corner of the school community.
+          </p>
+
+          <div class="cta-row">
+            <a href="#stories" class="primary-btn"><strong>Read this week</strong></a>
+            <a href="#events" class="secondary-btn"><strong>Upcoming events</strong></a>
+          </div>
+        </div>
+
+        <aside class="feature-box" id="events">
+          <span class="kicker">Top Story</span>
+          <h3>Students turn the courtyard into a living art gallery.</h3>
+          <p>
+            A collaborative display of murals, photography, and student-made installations is drawing the whole campus together.
+          </p>
+          <div class="meta-line">
+            <span>Campus Life</span>
+            <span>4 min read</span>
+          </div>
+        </aside>
+      </main>
+
+      <section class="stories" id="stories">
+        <article class="story-card active" tabindex="0" aria-expanded="true">
+          <span class="story-tag">Academics</span>
+          <h4>Science fair sparks bold ideas and future founders.</h4>
+          <div class="story-body">
+            <span class="read-more">Read story</span>
+          </div>
+        </article>
+
+        <article class="story-card" tabindex="0" aria-expanded="false">
+          <span class="story-tag">Sports</span>
+          <h4>Championship season brings new energy to the stands.</h4>
+          <div class="story-body">
+            <span class="read-more">Read story</span>
+          </div>
+        </article>
+
+        <article class="story-card" tabindex="0" aria-expanded="false">
+          <span class="story-tag">Culture</span>
+          <h4>Performing arts showcase celebrates creativity and courage.</h4>
+          <div class="story-body">
+            <span class="read-more">Read story</span>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
